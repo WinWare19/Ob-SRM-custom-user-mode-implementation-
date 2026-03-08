@@ -1,7 +1,6 @@
 #pragma once
 #include "./common.h"
 #include "./srm.h"
-#include "./io.h"
 
 // ==========================================================
 
@@ -148,5 +147,6 @@ WXSTATUS __stdcall ObLookupGlobalNamespace(LPCWSTR, ULONG, LPOBJECT_NAME_ENTRY**
 
 LPWX_OBJECT_MANAGER __object_manager = 0x0;
 KPROCESSOR_MODE requestor_mode = USER_MODE;
+
 
 // ==========================================================
